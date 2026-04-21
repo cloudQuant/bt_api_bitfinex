@@ -3,11 +3,9 @@
 from __future__ import annotations
 
 import json
-from typing import Any
 
 from bt_api_base.containers.exchanges.exchange_data import ExchangeData
 from bt_api_base.logging_factory import get_logger
-
 
 logger = get_logger("bitfinex_exchange_data")
 

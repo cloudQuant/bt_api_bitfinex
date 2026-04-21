@@ -2,8 +2,8 @@
 
 from bt_api_base.registry import ExchangeRegistry
 
-from bt_api_bitfinex.feeds.live_bitfinex import BitfinexRequestDataSpot
 from bt_api_bitfinex.exchange_data import BitfinexExchangeDataSpot
+from bt_api_bitfinex.feeds.live_bitfinex import BitfinexRequestDataSpot
 
 
 def register_bitfinex(registry: ExchangeRegistry | None = None) -> None:

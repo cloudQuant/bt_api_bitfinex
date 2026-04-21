@@ -1,9 +1,6 @@
 """Bitfinex plugin registration."""
 
-from bt_api_bitfinex.feeds.live_bitfinex import BitfinexRequestDataSpot
-
 from bt_api_base.plugins.protocol import PluginInfo
-
 
 BITFINEX_PLUGIN_INFO = PluginInfo(
     name="bt_api_bitfinex",
